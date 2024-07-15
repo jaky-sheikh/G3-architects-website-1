@@ -7,3 +7,29 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+.bg-light{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar styles */
+.navbar{
+   justify-content: space-between; 
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
