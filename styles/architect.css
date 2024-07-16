@@ -125,6 +125,9 @@ main{
     font-size: 1.25rem;
     font-weight: 600;
 }
+/* sponsors part design */
+
+
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
@@ -141,5 +144,9 @@ main{
 @media screen and (min-width: 576px) and (max-width: 990px){
     .team{
         flex-direction: column;
+    }
+    .fact-container{
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
