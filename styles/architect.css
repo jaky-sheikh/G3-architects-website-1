@@ -94,9 +94,36 @@ main{
     max-width: 530px;
 }
 /* some facts style */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
 .fact-title{
     font-weight: 700;
     font-size: 2.5rem;
+    margin-top: 100px;
+}
+.fact{
+    border: 1px solid rgb(255, 144, 14);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fact-number{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -104,8 +131,11 @@ main{
     .team {
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container, .fact-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .fact-container{
+        justify-items: center;
     }
 }
 @media screen and (min-width: 576px) and (max-width: 990px){
