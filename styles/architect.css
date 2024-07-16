@@ -126,7 +126,22 @@ main{
     font-weight: 600;
 }
 /* sponsors part design */
-
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.sponsor-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-company img{
+    filter: grayscale(100%);
+}
 
 @media screen and (max-width: 576px) {
     .navbar, 
@@ -134,10 +149,12 @@ main{
     .team {
         flex-direction: column;
     }
-    .team-img-container, .fact-container{
+    .team-img-container, 
+    .fact-container, 
+    .sponsor-company{
         grid-template-columns: repeat(1, 1fr);
     }
-    .fact-container{
+    .fact-container, .sponsor-company{
         justify-items: center;
     }
 }
