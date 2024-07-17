@@ -93,6 +93,44 @@ main{
     margin-left: 100px;
     max-width: 530px;
 }
+/* feature section */
+.feature{
+    gap: 140px;
+}
+.feature-div{
+    margin-top: 100px;
+}
+.feature-div img{
+    width: 100%;
+}
+#special-feature{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.
+.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.ten-years{
+    font-size: 4rem;
+    font-weight: 700;
+}
+#btn-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
 /* some facts style */
 .fact-container{
     display: grid;
@@ -162,6 +200,7 @@ p{
     .navbar, 
     .nav-links, 
     .team, 
+    .feature, 
     .footer {
         flex-direction: column;
     }
